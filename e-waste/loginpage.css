@@ -1,0 +1,34 @@
+
+.header{
+background-color:#27ae60;
+display: flex;
+flex-direction: row;
+height:100px;
+width: 100%;
+}
+.left-header{
+color:white;
+flex: 1;
+display: flex;
+background: none;
+}
+.middle-header{
+flex:1;
+}
+.right-header{
+padding-top:40px;
+color:white;
+flex:1;
+background:none;
+display: flex;
+flex-direction: row-reverse;
+
+}
+.rights{
+display: flex;
+flex-direction: row-reverse;
+}
+.icon{
+width:110px;
+height: 100px;
+}
